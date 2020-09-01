@@ -42,6 +42,7 @@ numInput.addEventListener("change", function () {
 function reset() {
   p1Score = "0";
   p2Score = "0";
+  winningScore = 5;
   p1Display.textContent = p1Score;
   p2Display.textContent = p2Score;
   p1Display.classList.remove("winner");
